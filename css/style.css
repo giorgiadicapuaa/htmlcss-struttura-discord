@@ -1,34 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header{
-    background-color:#00008b ;
-    height: 300px;
-    
-}
-
-.headertop{
-    background-color: #add8e6;
-    margin: auto;
-    height: 20%;
+    max-height: 200px;
+    background-color: #ADD8E6;
    
 }
 
- .barragialla{
-    background-color:#daa520 ;
-    margin: auto;
-    width: 80%;
+.box{
+    background-color: #dAA520;
+    max-width: 1200px;
+    margin: 1em auto;
     display: flex;
-   
-   
- }
+    justify-content: space-between;
+    border: dashed 2px;
+  
+}
 
 .logo{
-    justify-content: center;
+    width: 20%;
+    border-right: dashed 2px;
+}
 
+.link{
+   width: 80%;
+    text-align: center;
+}
 
+.login{
+    width: 20%;
+    text-align: end;
+    border-left: dashed 2px;
     
 }
 
+.boxblu{
+    background-color:#00008b ;
+    display: flex;
+    height: 200px;
+    border: dashed 1px black;
+}
+
+.boxrosa{
+    background-color: #EE83Ee;
+    width: 50%;
+    min-height: 80%;
+    margin: 1em auto;
+    border: dashed 1px black;
+}
+
+.mainbianco{
+    background-color: white;
+}
+
+.containerflex{
+    width: 50%;
+    margin: 1em auto;
+    display: flex;
+    min-height: 300px;
+}
+
+.rettangoloblu{
+    background-color: #1E90ff;
+    width: 60%;
+    min-height: 70%;
+    border: dashed 1px black;
+}
+
+.rettangolorosa{
+    background-color: #ffc0cb;
+    width: 40%;
+    min-height: 70%;
+    border: dashed 1px black;
+}
+
+.maingrigio{
+    background-color: #d3d3d3;
+}
+
+.maingrigio2{
+    background-color: #d3d3d3;
+}
 
 
-.login{
-  
+.rettangoloverde{
+    background-color:green ;
+    width: 100%;
+    min-height: 500px;
+    margin: 1em auto;
+    border: dashed 1px black;
+}
+
+.footernero{
+    background-color:#23272a ;
+}
+
+.flexcontainer{
+    width: 50%;
+    margin: 1em auto;
+    display: flex;
+    min-height: 300px;
+    
+}
+
+.rettangolosalmone{
+    background-color: #f08080;
+    min-height: 70%;
+    width: 36%;
+    border:dashed 1px;
+}
+
+.verdeacqua{
+    background-color: #20b2aa;
+    min-height: 70%;
+    width: 16%;
+    border: dashed 1px white;
+}
+
+.flexcontainer1{
+    background-color: #7FFFD4;
+    width: 50%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+footer{
+   background-color: #23272a ; 
+}
+.button{
+    background-color: #FFB6C1;
+    padding: 5px;
+    border: dashed 1px;
+
+}
+
+.logo2{
+    background-color: #FFB6C1;
+    padding: 5px;
+    width: 10%;
+    border: dashed 1px;
 }
