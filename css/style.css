@@ -1,0 +1,29 @@
+header{
+    background-color:#00008b ;
+    height: 300px;
+    display: flex;
+
+}
+
+.blocco{
+    background-color: #add8e6;
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+}
+
+ 
+
+.logo{
+    width: 240px;
+}
+
+.link{
+    width: 720px;
+    justify-content: center;
+    text-align: center;
+}
+
+.login{
+    width: 240px;
+}
