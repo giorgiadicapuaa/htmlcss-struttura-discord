@@ -1,7 +1,7 @@
 header{
     background-color:#00008b ;
     height: 300px;
-    display: flex;
+    
 
 }
 
@@ -9,7 +9,7 @@ header{
     background-color: #add8e6;
     margin: auto;
     display: flex;
-    height: 80px;
+    height: 20%;
 }
 
  div{
@@ -19,13 +19,14 @@ header{
  }
 
 .logo{
-    
+    display: inline-block;
 }
 
 .link{
-   text-align: center;
+   display: inline-block;
+    text-align: center;
 }
 
 .login{
-   
+   display: inline-block;
 }
