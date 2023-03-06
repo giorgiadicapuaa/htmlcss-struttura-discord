@@ -2,7 +2,6 @@ header{
     background-color:#00008b ;
     height: 300px;
     
-
 }
 
 .headertop{
@@ -10,21 +9,27 @@ header{
     margin: auto;
     display: flex;
     height: 20%;
+   
 }
 
- div{
+ .barragialla{
     background-color:#daa520 ;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    width: 80%;
+   
+   
  }
 
 .logo{
     display: inline-block;
+
+    
 }
 
 .link{
    display: inline-block;
     text-align: center;
+
 }
 
 .login{
